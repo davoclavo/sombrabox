@@ -9,52 +9,39 @@ shadowbox's younger (and thinner, and dumber) brother
 Options
 ------------
     Default values
-+ **appendToSelector** - 
-jQuery selector to append the main element
+**appendToSelector** - jQuery selector to append the main element
+    'body'
 
-      'body'
+**triggerSelector** - jQuery selector to set the click handler
+    'img'
 
-+ **triggerSelector** - 
-jQuery selector to set the click handler
+**tag** - Full tag with replacer for id
+    '&lt;div id="%s"&gt;&lt;/div&gt;'
 
-      'img'
+**id** - For main element
+    'sombrabox'
 
-+ **tag** - 
-Full tag with replacer for id
+**css** - CSS for the main element
+    {
+      'display': 'none',
+      'top': '0',
+      'left': '0',
+      'width': '100%',
+      'height': '100%',
+      'position' : 'fixed',
+      'background': 'rgba(0,0,0,0.8)',
+      'z-index' : '2000',
+    }
+**inrcss** - CSS for the inner element
+    {
+     'position':'absolute',
+     'top': '50%',
+     'left': '50%',
+     'max-width': '100%',
+     'max-height': '100%',
+     'border': '3px rgba(255,255,255,0.6) solid',
+     'border-radius': '3px',
+    }
 
-      '<div id="%s"></div>'
-
-+ **id** - 
-For main element
-
-      'sombrabox'
-
-+ **css** - 
-CSS for the main element
-
-       {
-        'display': 'none',
-        'top': '0',
-        'left': '0',
-        'width': '100%',
-        'height': '100%',
-        'position' : 'fixed',
-        'background': 'rgba(0,0,0,0.8)',
-        'z-index' : '2000',
-      }
-+ **innercss** - 
-CSS for the inner element
-
-       {
-        'position':'absolute',
-        'top': '50%',
-        'left': '50%',
-        'max-width': '100%',
-        'max-height': '100%',
-        'border': '3px rgba(255,255,255,0.6) solid',
-        'border-radius': '3px',
-       }
-
-+ **time** - 
-FadeIn and FadeOut time [ms]
-      100
+**time** - FadeIn and FadeOut time [ms]
+    100
