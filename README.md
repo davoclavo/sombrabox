@@ -10,18 +10,23 @@ Options
 ------------
     Default values
 **appendToSelector** - jQuery selector to append the main element
+
     'body'
 
 **triggerSelector** - jQuery selector to set the click handler
+
     'img'
 
 **tag** - Full tag with replacer for id
+
     '&lt;div id="%s"&gt;&lt;/div&gt;'
 
 **id** - For main element
+
     'sombrabox'
 
 **css** - CSS for the main element
+
     {
       'display': 'none',
       'top': '0',
@@ -32,7 +37,9 @@ Options
       'background': 'rgba(0,0,0,0.8)',
       'z-index' : '2000',
     }
+
 **inrcss** - CSS for the inner element
+
     {
      'position':'absolute',
      'top': '50%',
@@ -44,4 +51,5 @@ Options
     }
 
 **time** - FadeIn and FadeOut time [ms]
+
     100
