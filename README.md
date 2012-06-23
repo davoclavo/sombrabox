@@ -2,6 +2,7 @@ sombrabox.js
 ======
 
 shadowbox's younger (and thinner, and dumber) brother
+
 It internally includes CSS and HTML tags lol
 
     sombrabox = new sombrabox()
