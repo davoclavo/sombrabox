@@ -19,7 +19,7 @@ Options
 
 **tag** - Full tag with replacer for id
 
-    '&lt;div id="%s"&gt;&lt;/div&gt;'
+    '<div id="%s"></div>'
 
 **id** - For main element
 
